@@ -84,19 +84,19 @@ GoTicket/
 
 | Method | Endpoint | Description | Auth |
 |--------|----------|-------------|------|
-| `POST` | `/api/register` | Create a new account | ✗ |
-| `POST` | `/api/login` | Sign in | ✗ |
+| `POST` | `/api/register` | Create a new account | ✓ |
+| `POST` | `/api/login` | Sign in | ✓ |
 | `GET` | `/api/profile` | Get user profile | ✓ |
 
 ### Events
 
 | Method | Endpoint | Description | Auth |
 |--------|----------|-------------|------|
-| `GET` | `/api/events` | List all active events | ✗ |
-| `GET` | `/api/events?category=Tech` | Filter by category | ✗ |
-| `GET` | `/api/events?search=AI` | Search events | ✗ |
+| `GET` | `/api/events` | List all active events | ✓ |
+| `GET` | `/api/events?category=Tech` | Filter by category | ✓ |
+| `GET` | `/api/events?search=AI` | Search events | ✓ |
 | `POST` | `/api/events` | Create a new event | ✓ |
-| `GET` | `/api/events/{id}` | Get event details | ✗ |
+| `GET` | `/api/events/{id}` | Get event details | ✓ |
 | `PUT` | `/api/events/{id}` | Update event (organizer only) | ✓ |
 | `DELETE` | `/api/events/{id}` | Cancel event (organizer only) | ✓ |
 
