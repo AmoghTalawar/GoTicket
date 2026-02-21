@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.next/
+.turbo/
+
+# Environment variables (contain secrets)
+.env
+.env.local
+.env*.local
+
+# Build outputs
+goticket.exe
+*.exe
+*.out
+
+# IDE
+.vscode/
+.idea/
+
+# Misc
+.DS_Store
+*.swp
+*.swo
+tsconfig.tsbuildinfo
+pnpm-lock.yaml
+
+# v0 runtime files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# Gemini agent files
+.gemini/
